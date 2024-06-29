@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.navbar {
+  display: flex;
+justify-content:space-between;
+padding: 20px 30px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 9999999;
+}
+
+
+.menu {
+  display: none;
+}
+
+.nav ul{
+  display: flex;
+}
+
+.nav ul li {
+  list-style: none;
+ margin-left: 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: black;
+}
+
+
+
+.nav ul li a:hover {
+  color: #01FFF9;
+}
+
+
+.logo h1 {
+  color: #1B1464;
+}
+
+
+.main {
+  padding-top: 1000px;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+
+.main h1 {
+  color: #1B1464;
+  text-transform: capitalize;
+  font-size: 80px;
+}
+
+.main p {
+  text-transform: capitalize;
+}
+
+
+
+.button img {
+  margin-top: 20px;
+width: 100px;
+}
+span {
+  color: #01FFF9;
+}
+
+
+
+.human {
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 900px;
+  border-radius: 80px;
+  border: 5px solid #01FFF9;
+  box-shadow: 0px 0px 20px 10px  #01FFF9;
+}
+
+
+.container .services .skill img {
+  width: 40px;
+  margin-top: 50px;
+}
+
+
+.services {
+  margin-top: 100px;
+  display: flex;
+}
+
+.services .skill div {
+  padding: 50px;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  box-shadow: black 1px 1px 10px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+
+
+.skill {
+  width: 50%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+
+
+.info {
+  padding-top: 100px;
+}
+
+.info h1 {
+  text-transform: capitalize;
+  font-size:60px;
+  color: #1B1464;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin-bottom: 50px;
+}
+
+#but {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #01FFF9;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #1B1464;
+  border-radius: 20px;
+  background-color: #1B1464;
+}
+
+
+.partner .info h2 {
+  color: #1B1464;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  
+}
+
+
+.partner .info {
+  margin-left: 80px;
+}
+
+
+
+.partner .skill {
+  width: 50%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.partner .skill div {
+  padding: 50px;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  box-shadow: black 1px 1px 10px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+
+.partner {
+  margin-top: 150px;
+  display: flex;
+}
+
+
+.container .partner .skill img {
+  width: 150px;
+  margin-top: 50px;
+}
+
+.container .partner .info .skill .branding .b {
+  width: 500px;
+}
+
+
+
+.foto {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  gap:100px ;
+}
+
+
+.foto #laptop {
+  border-radius: 20px;
+}
+
+
+
+.link {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.link div {
+  margin-left: 80px;
+}
+
+.link ul li {
+  list-style: none;
+}
+
+.link ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.link h1 {
+color: white;
+}
+
+
+.link {
+  margin-top: 200px;
+  background-color: #1B1464;
+  padding: 60px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+
+.footer {
+  background-color: #1B1464;
+  padding: 60px 0;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
